@@ -16,5 +16,7 @@ This repository hosts a simple design (written in Systemverilog) for a CPU that 
 **The following is the diagram of the datapath for the single_cycle cpu:**
 ![single_cycle](docs/single_cycle.png)
 
+
+
 **The following is the diagram of the datapath for the pipelined version of the cpu (5 stages):**
 ![pipelined](docs/pipelined.png)
