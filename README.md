@@ -8,8 +8,13 @@ This repository hosts a simple design (written in Systemverilog) for a CPU that 
 # Control Table
 ![control table](docs/control_table.png)
 
-# Diagram
-There is a single-cycle version of the CPU and a pipelined (5 stages) version of the CPU
+# Datapath
+* The datapath is written in structural Systemverilog, while control is written in RTL. 
+* There is a single-cycle version of the CPU at single_cycle/
+* There is a pipelined version (5 stages) of the CPU at pipelined/
 
+**The following is the diagram of the datapath for the single_cycle cpu:**
 ![single_cycle](docs/single_cycle.png)
+
+**The following is the diagram of the datapath for the pipelined version of the cpu (5 stages):**
 ![pipelined](docs/pipelined.png)
